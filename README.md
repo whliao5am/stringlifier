@@ -24,7 +24,17 @@ In case you are using the pip3 installation that comes with Python3, use pip3 in
 $ pip3 install stringlifier
 ```
 
-API example:
+NOTE: the pip installation is not working for now.
+
+## Installation from source
+
+```bash
+$ git clone https://github.com/adobe/stringlifier.git
+$ cd stringlifier
+$ pip install .
+```
+
+## API example
 ```python
 from stringlifier.api import Stringlifier
 
@@ -58,8 +68,6 @@ s, tokens = stringlifier("com.docker.hyperkit -A -u -F vms/0/hyperkit.pid -c 8 -
    ('45172425-08d1-41ec-9d13-437481803412', 172, 208, '<UUID>'),
    ('c6fb5010-a83e-4f74-9a5a-50d9086b9', 212, 244, '<UUID>')]]
 ```
-
-
 
 # Building your own classifier
 
