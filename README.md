@@ -14,22 +14,28 @@ Typical usage scenarios include:
 You can see Stringlifier in action by checking out this [interactive notebook hosted on Colaboratory](https://colab.research.google.com/drive/1bgZQSKhVAYU4r46wqb0v8Sfvuo_yMOLA?usp=sharing).
 
 # Quick start guide
+## Installation via uv
+
+```bash
+$ uv pip install https://github.com/whliao5am/stringlifier.git
+```
+
+## Installation via pip
+**NOTE: the pip installation is not working for now.**
 
 You can quickly use stringlifier via pip-installation:
 ```bash
-$ pip install stringlifier
+$ pip install git+https://github.com/whliao5am/stringlifier.git
 ```
 In case you are using the pip3 installation that comes with Python3, use pip3 instead of pip in the above command.
 ```bash
-$ pip3 install stringlifier
+$ pip3 install git+https://github.com/whliao5am/stringlifier.git
 ```
 
-NOTE: the pip installation is not working for now.
-
-## Installation from source
+## Manual Insstallation
 
 ```bash
-$ git clone https://github.com/adobe/stringlifier.git
+$ git clone https://github.com/whliao5am/stringlifier.git
 $ cd stringlifier
 $ pip install .
 ```
